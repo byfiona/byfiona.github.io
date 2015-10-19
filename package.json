@@ -1,0 +1,11 @@
+{
+  "name": "byfiona",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Matthew Clark <matthew@matthewclark.ca>",
+  "description": "A small blog built using Jekyll",
+  "license": "MIT",
+  "dependencies": {
+    "font-awesome": "~4.4.0"
+  }
+}
