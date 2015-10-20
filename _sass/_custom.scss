@@ -3,21 +3,27 @@
  */
 
 .circle-container {
-  
 }
 
 .circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
   font-family: $accent-font;
-  font-size: 28px;
+  font-size: 20px;
   color: #000;
   text-align: center;
-  line-height: 200px;
+  vertical-align: middle;
+  display: table-cell;
   background: #000;
   position: relative;
   z-index:1;
+}
+
+.circle span{
+  vertical-align: middle;
+  width: 100%;
+  display: block;
 }
 
 .circle:before {
@@ -27,8 +33,8 @@
   left: 2px;
   bottom: 2px;
   content: '';
-  background: $grey-color-light;
-  border-radius: 100px;
+  background: $dark-white;
+  border-radius: 75px;
   z-index: -1;
 }
 
@@ -40,20 +46,11 @@
   content: '';
   background: $brand-color;
   color: $brand-color;
-  border-radius: 100px;
+  border-radius: 75px;
 }
 
-.right {
-  float: right;
-  width: 33%;
-}
-
-.center {
-  display: inline-block;
-  width: 33%;
-}
-
-.left {
-  float: left;
-  width: 33%;
+.portfolio-heading {
+  text-align: center;
+  font-size: 52px;
+  font-family: $accent-font;
 }

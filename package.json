@@ -6,6 +6,7 @@
   "description": "A small blog built using Jekyll",
   "license": "MIT",
   "dependencies": {
-    "font-awesome": "~4.4.0"
+    "font-awesome": "~4.4.0",
+    "bootstrap": "~3.3.5"
   }
 }
