@@ -70,18 +70,41 @@ html {
   }
 }
 
+.sidebar-vertical-line {
+  visibility: hidden;
+  position: absolute;
+  border-right: 0px solid #D75377;
+  top: 0;
+  bottom: 0;
+}
+
+@media (min-width: 48em) {
+  .sidebar-vertical-line {
+      visibility: visible;
+      position: absolute;
+      border-left: 15px solid #D75377;
+      top: 0;
+      bottom: 0;
+      margin-left: 275px;
+  }
+}
+
 /* Sidebar links */
 .sidebar a {
-  color: #000;
+  font-size: 1.5em;
+  text-align: center;
+  color: #D75377;
 }
 
 /* About section */
 .sidebar-about h1 {
+  text-align: center;
   color: #D75377;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
 }
+
 
 /* Sidebar nav */
 .sidebar-nav {
@@ -96,7 +119,7 @@ a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
-  font-weight: bold;
+  color: #151818;
 }
 
 /* Sticky sidebar
