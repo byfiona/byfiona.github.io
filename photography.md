@@ -2,4 +2,6 @@
 layout: page
 title: PHOTOGRAPHY
 ---
-Coming Soon
+{% for i in (1..6) %}
+<img src="../public/img/photos/{{ i }}.JPG"><br>
+{% endfor %}
