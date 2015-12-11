@@ -98,24 +98,37 @@ html {
   margin-right: 20px;
 }
 
-/* Sidebar links */
 .sidebar-rtcc {
-  position: absolute;
-  bottom: 0px;
-  font-size: 1em;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  color: #D75377;
-  margin-right: 20px;
-}
-
+    visibility: hidden;
+    position: absolute;
+    bottom: 0px;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #D75377;
+    margin-right: 20px;
+  }
 /* Sidebar links */
-.sidebar-rtcc a{
-  font-size: inherit;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  color: #D75377;
-  margin-right: 20px;
+@media (min-width: 48em) {
+  .sidebar-rtcc {
+    visibility: visible;
+    position: absolute;
+    bottom: 0px;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #D75377;
+    margin-right: 20px;
+  }
+  
+  /* Sidebar links */
+  .sidebar-rtcc a{
+    font-size: inherit;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #D75377;
+    margin-right: 20px;
+  }
 }
 
 /* About section */
